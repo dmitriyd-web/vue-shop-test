@@ -1,5 +1,7 @@
-[
-	{ id: '1', name: 'Футболка USA', photo: require('../assets/images/tovar-1.png'), full_price: '229', discount_price: '129' },
-	{ id: '2', name: 'Купальник Glow', photo: require('../assets/images/tovar-2.png'), full_price: '', discount_price: '129' },
-	{ id: '3', name: 'Свитшот Sweet Shot', photo: require('../assets/images/tovar-3.png'), full_price: '', discount_price: '129' }
-]
+{
+	"tovars": [
+		{ "id": "1", "name": "Футболка USA", "photo": "require('../assets/images/tovar-1.png')", "full_price": "229","discount_price": "129" },
+		{ "id": "2", "name": "Купальник Glow", "photo": "require('../assets/images/tovar-2.png')", "full_price": "","discount_price": "129" },
+		{ "id": "3", "name": "Свитшот Sweet Shot", "photo": "require('../assets/images/tovar-3.png')", "full_price": "","discount_price": "129" },
+	]
+}
